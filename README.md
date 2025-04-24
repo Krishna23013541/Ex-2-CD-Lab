@@ -1,4 +1,4 @@
-# Ex-2-GENERATION OF LEXICAL TOKENS LEX FLEX TOOL
+[# Ex-2-GENERATION OF LEXICAL TOKENS LEX FLEX TOOL
 # AIM
 ## To write a lex program to implement lexical analyzer to recognize a few patterns.
 # NAME:KRISHNA KUMAR R
@@ -85,3 +85,4 @@ int main() {
 
 # RESULT
 ## The lexical analyzer is implemented using lex and the output is verified.
+](https://github.com/RamachandranSEC/Ex-2-CD-Lab.git)
