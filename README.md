@@ -1,8 +1,6 @@
-[# Ex-2-GENERATION OF LEXICAL TOKENS LEX FLEX TOOL
+# Ex-2-GENERATION OF LEXICAL TOKENS LEX FLEX TOOL
 # AIM
 ## To write a lex program to implement lexical analyzer to recognize a few patterns.
-# NAME:KRISHNA KUMAR R
-# REG NO: 212223230107
 # ALGORITHM
 
 1.	Start the program.
@@ -33,7 +31,7 @@
 6.	Compile the lex program with lex compiler to produce output file as lex.yy.c. eg $ lex filename.l $ cc lex.yy.c
 7.	Compile that file with C compiler and verify the output.
 
-# PROGRAM:
+# PROGRAM
 ```
 #include <stdio.h>
 #include <ctype.h>
@@ -41,8 +39,7 @@
 
 int isKeyword(char buffer[]) {
     char keywords[5][10] = {"if", "else", "while", "for", "int"};
-    for (int i = 0; i < 5; ++i) 
-    {
+    for (int i = 0; i < 5; ++i) {
         if (strcmp(buffer, keywords[i]) == 0) {
             return 1;
         }
@@ -78,11 +75,10 @@ int main() {
 
     return 0;
 }
-
 ```
-# OUTPUT:
-![Screenshot 2024-10-08 142942](https://github.com/user-attachments/assets/36165cca-2783-4034-aac0-08697e165547)
+# OUTPUT
+![435928366-a14ed47f-b8c0-4a19-aec9-f013591c8dcc](https://github.com/user-attachments/assets/c063a83e-b071-48f8-8d41-f2972e33bb3c)
+
 
 # RESULT
 ## The lexical analyzer is implemented using lex and the output is verified.
-](https://github.com/RamachandranSEC/Ex-2-CD-Lab.git)
